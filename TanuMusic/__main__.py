@@ -50,7 +50,7 @@ async def init():
         pass
     await Tanu.decorators()
     LOGGER("TanuMusic").info(
-        "✦ Created By ➥ Kʀɪsʜɴᴇᴛᴡᴏʀᴋ...🥀"
+        "✦ Created By ➥ 𝐀𝐔𝐑𝐀 𝐍ᴇᴛᴡᴏʀᴋ...🧩"
     )
     await idle()
     await app.stop()
