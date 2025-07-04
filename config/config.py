@@ -11,16 +11,16 @@ API_ID = int(getenv("API_ID", None))
 API_HASH = getenv("API_HASH", None)
 
 #❖ Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME", "L444KK")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "UseSense")
 
 #❖  Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME", "SYN_IXBOT")
+BOT_USERNAME = getenv("BOT_USERNAME", "GojoMusicRobot")
 
 #❖  Don't Add style font 
-BOT_NAME = getenv("BOT_NAME", "Kʀɪsʜɴᴇᴛᴡᴏʀᴋ")
+BOT_NAME = getenv("BOT_NAME", "GOJO")
 
 #❖ get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME", "Kʀɪsʜɴᴇᴛᴇᴏʀᴋ")
+ASSUSERNAME = getenv("ASSUSERNAME", "GOJO ASSISTANT")
 
 #❖ Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
@@ -34,7 +34,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600000))
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 #❖ Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "7453278496"))
+OWNER_ID = int(getenv("OWNER_ID", "7323563554"))
 
 #❖  Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Xkrishmishra/TanuMusic",
+    "https://github.com/Auraperson/TanuMusic",
 )
 
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
@@ -53,8 +53,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  #❖ Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/krishnetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/krishsupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TheAuraNetwork")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+sRMHl58lWolhMTdl")
 
 #❖ Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -92,13 +92,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/r3taat.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/d4z1dl.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/r3taat.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/d4z1dl.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/7795e58425337d0455e95.jpg"
-STATS_IMG_URL = "https://envs.sh/SSk.jpg"
+STATS_IMG_URL = "https://graph.org/file/f2c0eb516eae61a3fbe13-3cd87fad5a1b9fd07c.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/d2081243af7c1d7578b7b.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/982b01ba53c3d69b0d0ce.jpg"
